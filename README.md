@@ -99,7 +99,7 @@ Store the file below `deployment.yml` on your system and run the following:
 
     kubectl run hello-world-image --image=hello-world-image  --port=3000 --image-pull-policy=Never
 
-   kubectl expose deployment hello-world-image --type=NodePort
+    kubectl expose deployment hello-world-image --type=NodePort
     service "hello-world-image" exposed
 
  kubectl get svc
